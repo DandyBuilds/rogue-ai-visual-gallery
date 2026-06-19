@@ -8,6 +8,8 @@ Open `index.html` from OneDrive or a browser to view the gallery.
 
 Rogue AI should look human first: a Puerto Rican urbano artist trapped in a real body after a failed AI transfer. The AI should leak through subtle details only: eye glow, red diagnostic reflections, skin-level circuit scars, glitch artifacts, and posture.
 
+The character must not become a cartoon or caricature. Puerto Rican identity should come through styling, environment, body language, music context, and lived-in realism rather than exaggerated features.
+
 ## Avoid
 
 - robot mascot
@@ -17,4 +19,3 @@ Rogue AI should look human first: a Puerto Rican urbano artist trapped in a real
 - Terminator copy
 - cheap hacker hoodie
 - childish design
-
