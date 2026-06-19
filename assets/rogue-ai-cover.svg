@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Rogue AI cover art</title>
+  <desc id="desc">Rogue AI as a Puerto Rican human in a hot street after a failed AI transfer.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0c08a"/>
+      <stop offset=".34" stop-color="#54362f"/>
+      <stop offset=".72" stop-color="#121216"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" x2="1">
+      <stop offset="0" stop-color="#915c3f"/>
+      <stop offset=".55" stop-color="#c78961"/>
+      <stop offset="1" stop-color="#6e432f"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#sky)"/>
+  <circle cx="1210" cy="210" r="96" fill="#fff0ce" opacity=".85"/>
+  <g opacity=".45" stroke="#1a1a1a" stroke-width="8">
+    <path d="M0 548h1600M0 620h1600M0 718h1600"/>
+    <path d="M180 0l160 740M1420 0l-180 740"/>
+  </g>
+  <g fill="#1a1b1e">
+    <path d="M0 650h260v520H0zM1340 640h260v530h-260z"/>
+    <path d="M280 710h250v350H280zM1080 700h240v360h-240z" opacity=".78"/>
+  </g>
+  <g opacity=".55" fill="#d71920">
+    <rect x="0" y="816" width="330" height="16"/>
+    <rect x="1260" y="850" width="340" height="16"/>
+    <rect x="720" y="1060" width="160" height="10"/>
+  </g>
+  <path d="M0 1170c370-70 832-70 1600 0v430H0z" fill="#171719"/>
+  <path d="M0 1280c480-70 920-70 1600 0v320H0z" fill="#09090b"/>
+  <ellipse cx="790" cy="1406" rx="360" ry="56" fill="#000" opacity=".55"/>
+
+  <g transform="translate(115 10)">
+    <path d="M620 560h130v120c-34 38-94 40-130 0z" fill="url(#skin)"/>
+    <path d="M510 720c54-90 292-92 350 0 64 186 70 382 44 632H468c-26-250-20-446 42-632z" fill="#07080a"/>
+    <path d="M546 730c88 60 196 60 282 0l72 262c-124 54-302 54-426 0z" fill="#171b21"/>
+    <path d="M520 336c12-112 80-178 166-178s154 66 166 178c12 118-52 210-166 210s-178-92-166-210z" fill="url(#skin)"/>
+    <path d="M518 316c42-144 162-178 280-88 32 24 54 64 62 116-98-62-216-62-342-28z" fill="#0b0b0c"/>
+    <g filter="url(#glow)">
+      <ellipse cx="625" cy="392" rx="48" ry="18" fill="#e8f2ff"/>
+      <ellipse cx="748" cy="392" rx="48" ry="18" fill="#e8f2ff"/>
+      <circle cx="772" cy="374" r="10" fill="#d71920"/>
+    </g>
+    <path d="M632 470c44 22 90 22 132 0" stroke="#57331f" stroke-width="11" stroke-linecap="round"/>
+    <path d="M510 804c-90 62-138 150-158 260l118 40c20-88 56-152 118-200zM860 804c90 62 138 150 158 260l-118 40c-20-88-56-152-118-200z" fill="#11151c"/>
+    <path d="M520 1350l-42 120h172l18-120zM720 1350l18 120h172l-42-120z" fill="#050506"/>
+    <path d="M492 1118c-18 48 14 80 62 54M878 1118c18 48-14 80-62 54" fill="url(#skin)"/>
+    <g stroke="#e8f2ff" fill="none" stroke-width="5" opacity=".65">
+      <path d="M782 520h74v52h62"/>
+      <path d="M466 1060h72v-46h42"/>
+      <path d="M876 1088h-70v-54h-44"/>
+    </g>
+    <g fill="#d71920" opacity=".85">
+      <rect x="850" y="1020" width="96" height="8"/>
+      <rect x="430" y="1040" width="84" height="8"/>
+    </g>
+  </g>
+</svg>
